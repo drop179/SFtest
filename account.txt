@@ -1,0 +1,3 @@
+Account act = new Account();
+act.Name = 'GetForce';
+insert act;

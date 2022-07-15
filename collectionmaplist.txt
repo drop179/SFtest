@@ -1,0 +1,60 @@
+/*List<Integer> myList=new list<Integer>{200, 32, 45,77,451};
+    System.debug('my List is: '+myList);
+System.debug('element at index 0  '+myList[0]);
+System.debug('element at index 1  '+myList[1]);
+System.debug('element at index 3  '+myList[3]);
+
+//sort
+myList.sort();
+System.debug('element at after sort 0  '+myList[0]);
+System.debug('element at after sort 1  '+myList[1]);
+*/
+
+
+
+/*List <string> fruits = new List <string> {‘Apple’, ‘Potato’};
+fruits.add('Banana');
+System.debug(fruits);
+fruits.remove('Potato');
+System.debug(fruits);
+*/
+
+
+/*Set<Integer> uniqueNums =new Set<Integer>{54, 65, 98, 88};
+    System.debug(uniqueNums);
+uniqueNums.add(10);
+System.debug(uniqueNums);
+
+Map<Integer, String> nameId = new Map<Integer,String>{12 => 'Aza', 23 => 'Nurlan'};
+*/
+
+    
+
+/*Map <InMap<Integer, String> studentId = new Map<Integer,String>{1003 => 'Alex', 2345 => 'Aza',5444=> 'Beka'};teger,String> zipCountry=new Map <Integer, String> ();
+
+zipCountry.put(1234,'Canada');
+zipCountry.put(7654,'USA');
+zipCountry.put(0987,'Hungary');
+//KeySet
+system.debug(zipCountry.keySet());
+Set<Integer> keys = zipCountry.keySet();
+system.debug(keys);
+//Values 
+List<String> values = zipCountry.values();
+system.debug(values);
+*/
+
+/*List<Integer> nums =new List<Integer>{34, 35, 36, 37, 34};
+    System.debug(nums);
+nums.remove(0);
+nums.remove(0);
+nums.remove(0);
+System.debug(nums);
+nums.add(55);
+System.debug(nums);
+*/
+
+
+
+
+

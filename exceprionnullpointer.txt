@@ -1,0 +1,24 @@
+String s;
+Boolean b = s.contains('abc');
+system.debug('s contains abc? '+b);
+___________________________________________
+
+String s;
+Boolean b;
+
+try {
+
+Boolean b;
+
+try {
+
+b = s.contaons('abc'); //nullpointerexception
+
+}
+
+catch(NullPointerException npe){
+System.debug('the following has occured '+npe.getMessage());
+
+}
+
+system.debug('s contains abc?'+b);

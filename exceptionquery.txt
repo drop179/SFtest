@@ -1,0 +1,16 @@
+QueryException
+
+try{
+
+List<Lead> lm = [select Name from Lead where Name like 'Kathy%'];
+
+system.debug('size of the list '+lm.size());
+Lead l = [select Name from Lead where Name like 'asd%' Limit 1];
+
+}catch(QueryException e)
+
+{
+
+system.debug('the following exception occured '+e.get.Message());
+
+}

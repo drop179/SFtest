@@ -1,0 +1,8 @@
+Integer a= 100;
+for(integer i=1; i<=a; i++){
+    System.debug(i);
+    if(i==20){
+        break;
+    }
+}
+    

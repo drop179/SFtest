@@ -1,0 +1,8 @@
+Integer i=4;
+for(integer i=0; i<=6; i++)
+  {
+for(integer j=4; j<=i; j++)
+{
+    system.debug(i);
+    }
+  }

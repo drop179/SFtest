@@ -1,0 +1,58 @@
+Integer score = 82;
+Boolean assignmentCompleted == true;
+    If (score>=90)  String msg = assignmentCompleted?; 'Assignment comleted'; 'Assignment Not Completed'; {
+        system.debug('5');
+    }
+else if (score>=80)
+{system.debug('4');
+}
+else if (score>=70)
+{system.debug('3');
+}
+else if (score>=60)
+{system.debug(2);}
+else {system.debug('fail');
+}
+
+
+
+integer point=85;
+Boolean isAssignmentCompleted=false;
+if (point>=90 && isAssignmentCompleted)
+{
+    system.debug('5');
+}
+else if (point>=80 && isAssignmentCompleted)
+{
+    system.debug('4');
+}
+else if (point>=70 && isAssignmentCompleted)
+{
+    system.debug('3');
+}
+else if (point>=50 && isAssignmentCompleted)
+{
+    system.debug('2');
+}
+else
+{
+    system.debug('You failed!');
+}
+
+
+
+boolean completed = false;
+integer score = 66;
+if (completed!=true) {system.debug('Not completed');}
+
+    else If (score>=90)  {
+        system.debug('5');
+       
+    }
+else if (score>=80)
+{system.debug('4');}
+else if (score>=70 )
+{system.debug('3');}
+else if (score>=60)
+{system.debug(2);}
+else {system.debug('fail');}

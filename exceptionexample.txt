@@ -1,0 +1,45 @@
+1. ListException
+2. NullPointerException
+3.QueryException
+4. sObjectexception
+
+________________________________________
+
+list<Integer> li = new list<Integer>();
+
+li.add(15);
+
+li.add(40);
+
+//2 elements
+
+Integer first = li[0]; //15
+Integer sec = [4];
+System.debug('Element at index 0: '+first);
+
+______________________________________________
+
+Integer first, sec;
+try{
+list<Integer> li = new list<Integer>();
+
+li.add(15);
+
+li.add(40);
+
+//2 elements
+
+first = li[0]; 
+sec = [4];
+system.debug('the exception has occured ' +e.getMessage(00;
+
+}
+System.debug('Element at index 0 '+first);
+
+
+
+
+
+
+
+

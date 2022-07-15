@@ -1,0 +1,16 @@
+//creating new lead
+Lead=new Lead();
+System.debug('inserting a new lead record');
+
+______________________________
+
+//creating new lead record
+try{
+Lead l = new Lead();
+inert l;
+}
+catch(DMLexception e) {
+
+	system.debug('this is an exception '+e.getMessage());
+}
+	system.debug('trying to insert new lead record');

@@ -1,0 +1,54 @@
+try
+{
+    List<Lead> lm = [SELECT Name FROM Lead WHERE Name like 'mike%'];
+    system.debug('size of the list '+lm.size());
+    Lead l = [select Name from Lead where Name like 'xyz%' LIMIT 1];
+}catch(QueryException e)
+{
+    system.debug('the following exception has occured '+e.getMessage());
+}
+
+
+
+
+
+_____________________________
+
+
+
+Account acc = new Account(Name= 'Shch Sacred');
+insert acc;
+Account v=[select Name, Description from Account where Id =: acc.Id];
+String s=v.Description; //result in sObject exception
+system.debug('Fetched account is '+v);
+
+
+
+_________________________________________________
+Account v;
+try{
+    Account accnt = new Account(Name= 'Shch Sacred', Description = 'New Account');
+insert accnt;
+v=[select Name, Description from Account where Id =: accnt.Id];
+String s=v.Description; //result in sObject exception
+}catch(sObjectException se)
+{
+    system.debug('the following exception occured '+se.getMessage());
+}
+
+system.debug('Fetched account is '+v);
+
+__________________________________________________________
+
+try{
+  lead l=[select Name from Lead limit 1];
+string des=l.description; //throw an exception  
+}catch(Exception e)
+{
+    system.debug('Exception type caught: '+e.getTypeName());
+    system.debug('Message: '+e.getMessage());
+    system.debug('Cause: '+e.getCause());
+    system.debug('Line Number '+e.getLineNumber());
+    system.debug('Stack trace '+e.getStackTraceString());
+}
+

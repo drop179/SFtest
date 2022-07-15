@@ -1,0 +1,85 @@
+/*
+List <Integer> positiveNumbers = new List <Integer> {};
+List <Integer> negativeNumbers = new List <Integer> {};
+for (integer i = -10; i <=10; i++)
+{
+	if (i>0)
+{
+    positiveNumbers.add(i);
+}
+else {
+    negativeNumbers.add(i);
+}
+}
+system.debug(positiveNumbers);
+system.debug(negativeNumbers);
+
+
+for(Integer i=1; i<=5; i++){
+    System.debug(i);
+    
+}
+
+
+
+Integer i = 50;
+do{
+    System.debug('Yay! Youve got it! '+i);
+    i++;
+}while(i <=5);
+
+
+for (integer i=0; i<=20; i+=2)
+{
+    System.debug(i);
+    }
+
+
+for(integer i=1; i<=20; i+=2){
+    System.debug(i);
+}
+//put in basket if divisible by 5
+Integer basket = 0;
+for(Integer i=0; i<=50; i+=5){
+    basket+=i;
+}
+System.debug(basket);
+
+// add numbers 1- 20 into List
+List<Integer> numList = new List<Integer>();
+for(integer i=10; i<=20; i++){
+    numList.add(i);
+}
+ System.debug(numList);   
+  //add numbers from 90 to 100
+List<Integer>smallBasket = new List<Integer>();
+List<Integer>bigBasket = new List<Integer>();
+for(integer i=90; i<=110; i++){
+    if(i<100){
+        smallBasket.add(i);
+    }else{
+        bigBasket.add(i);
+    }
+}
+system.debug(smallBasket);
+    system.debug(bigBasket);
+    
+    
+
+List<Integer> i = new List<Integer>{} ;
+    for (integer i =20; i<=30; i++){
+        System.debug(i);
+    }
+
+
+Integer i = 0;
+do{
+    System.debug(i);
+    i++;
+}while(i <=20);
+
+Integer count =1;
+while(count<1){
+    system.debug(count);
+    count++;
+}

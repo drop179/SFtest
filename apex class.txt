@@ -1,0 +1,44 @@
+public class Cube{
+    public Decimal height;
+    public Decimal length;
+    public Decimal width;
+    public Decimal getVolume ()
+Execution:
+Cube nb = new Cube();
+nb.height=2;
+nb.length=3;
+nb.width=4;
+system.debug(nb.getVolume());
+
+Cube nb2 = new Cube();
+nb2.height=10;
+nb2.length=20;
+nb2.width=40;
+system.debug(nb2.getVolume());
+
+system.debug(nb.getVolume());
+
+
+
+//size
+public class inClassEx{
+public integer sum (List<Integer>numlist){
+Integer size = numlist.size();
+return size;
+}
+}
+
+
+
+
+public class test{
+public Integer check(List<Integer> numlist){
+
+Integer count = numlist.size();
+return count;
+}
+}
+
+test a1 = new test();
+List<Integer> aa1 =  new List<Integer>{1,56,89,56,78};
+system.debug(a1.check(b1));

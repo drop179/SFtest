@@ -1,0 +1,16 @@
+Create a new Account with the name “Green Land” and Rating “Warm”
+ * Create a new Opportunity “Somerset”  for this Account with below field values
+ *                Stage > Qualification
+ *                Closed Date > Today
+ * Update Account Name to “Bath”
+ * Update Opportunity Stage to “Closed-Won”
+ * Delete the opportunity
+ * Undelete the opportunity
+____________________________________________
+
+Update the city name for all existing accounts located in the city formerly known as Baku, and also inserts a new account located in Bishkek
+
+
+____________________________________________________________
+
+Merge an existing Account record into a master account
